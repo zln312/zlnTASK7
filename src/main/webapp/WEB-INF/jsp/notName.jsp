@@ -10,7 +10,7 @@
 <head>
     <title>Title</title>
 
-    <meta http-equiv="refresh" content="2; test11">
+    <meta http-equiv="refresh" content="2; login">
 </head>
 <body>
 该用户不存在，请重新登录。
