@@ -17,7 +17,7 @@ import org.apache.http.util.EntityUtils;
 public class SendMail {
 
     public static String send(String address) throws IOException {
-        final String url = "http://tps.sendcloud.net/apiv2/mail/send";
+        final String url = "http://api.sendcloud.net/apiv2/mail/send";
         final String apiUser = PropertiesUtil.getProperty("apiUser");
         final String apiKey =  PropertiesUtil.getProperty("apiKey");
         final String code = CoreUtils.randomString(6, true);
@@ -50,6 +50,9 @@ public class SendMail {
             httPost.releaseConnection();
             return "-1";
         }
+
     }
+
+
 }
 
